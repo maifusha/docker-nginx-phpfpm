@@ -31,8 +31,6 @@ COPY conf/etc /etc
 
 COPY docker-entrypoint.sh /entrypoint.sh
 
-COPY keys /root/.ssh
-
 RUN chmod 600 /root/.ssh/id_rsa \
 	&& ln -sf /dev/stdout /var/log/nginx/access.log \
 	&& ln -sf /dev/stderr /var/log/nginx/error.log
