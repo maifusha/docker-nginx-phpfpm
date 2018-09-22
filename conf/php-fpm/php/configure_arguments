@@ -1,0 +1,13 @@
+configure arguments:
+--with-config-file-path=/usr/local/etc/php
+--with-config-file-scan-dir=/usr/local/etc/php/conf.d
+--enable-fpm
+--with-fpm-user=www-data
+--with-fpm-group=www-data
+--disable-cgi
+--enable-mysqlnd
+--enable-mbstring
+--with-curl
+--with-libedit
+--with-openssl
+--with-zlib
